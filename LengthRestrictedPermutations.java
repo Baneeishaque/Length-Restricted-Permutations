@@ -18,7 +18,7 @@ class LengthRestrictedPermutations {
 
     public static void main(final String[] args) throws java.lang.Exception {
 
-        final char[] perm = new char[2];
-        permutation(perm, 0, "123");
+        final char[] perm = new char[6];
+        permutation(perm, 0, "1234567890");
     }
 }
